@@ -6,6 +6,7 @@ class Check
   {
 	Scanner input=new Scanner(System.in);
 	int a=input.nextInt();
+                   int b=input.nextInt();
 	int flag=0;
 	int arr[]=new int[a];      
 	for(int i=0;i<a;i++)
@@ -13,7 +14,7 @@ class Check
 		arr[i]=input.nextInt();
 		System.out.println("");
 	}
-	int b=input.nextInt();
+	
 	for(int j=0;j<a;j++)
 	{
 		if(arr[j]==b)
